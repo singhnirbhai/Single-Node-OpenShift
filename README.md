@@ -1,4 +1,4 @@
-
+# IPI Installation 
 # OpenShift Single Node OpenShift (SNO) on AWS
 
 Deploy a **Single Node OpenShift (SNO)** cluster on Amazon Web Services (AWS) using the official OpenShift Installer.

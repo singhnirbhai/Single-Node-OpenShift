@@ -372,6 +372,49 @@ cd sno-cluster
 ```
 
 ---
+# Important step for route 53 we have already created a one hosted zone openshift create new hosted zone and now openshift hosted attach with routing poilicy and record 
+
+Route 53 → Hosted zones → grras.xyz → Create record
+
+par ho.
+
+1. Record name
+openshift
+
+Ye sahi hai.
+
+2. Record type
+
+Dropdown mein:
+
+NS - Routes traffic to name servers for a hosted zone
+
+select karo.
+
+A nahi.
+
+3. Value
+
+Tumhari screenshot mein child hosted zone ke 4 nameservers hain:
+
+ns-1536.awsdns-00.co.uk
+ns-0.awsdns-00.com
+ns-1024.awsdns-00.org
+ns-512.awsdns-00.net
+
+Inko exactly 4 separate lines mein rakho:
+
+ns-1536.awsdns-00.co.uk
+ns-0.awsdns-00.com
+ns-1024.awsdns-00.org
+ns-512.awsdns-00.net
+4. TTL
+300
+
+theek hai.
+
+5. Routing policy
+Simple routing
 
 # Step 6 - Create install-config.yaml
 

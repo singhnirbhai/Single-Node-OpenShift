@@ -381,17 +381,11 @@ par ho.
 1. Record name
 openshift
 
-Ye sahi hai.
-
 2. Record type
 
 Dropdown mein:
 
-NS - Routes traffic to name servers for a hosted zone
-
-select karo.
-
-A nahi.
+NS - Routes traffic to name servers for a hosted zone (select karo)
 
 3. Value
 
@@ -410,8 +404,6 @@ ns-1024.awsdns-00.org
 ns-512.awsdns-00.net
 4. TTL
 300
-
-theek hai.
 
 5. Routing policy
 Simple routing
